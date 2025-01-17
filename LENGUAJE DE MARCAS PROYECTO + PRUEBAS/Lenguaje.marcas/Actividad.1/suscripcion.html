@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción Premium</title>
+    <link rel="stylesheet" href="recursos/CSS/suscripcion.css">
+</head>
+<body>
+    <!-- Header de la suscripción -->
+    <header>
+        <h1>¡Suscríbete a nuestro servicio premium!</h1>
+        <p>Elige el plan que mejor se ajuste a tus necesidades y suscríbete ahora.</p>
+    </header>
+
+    <!-- Main de la suscripción -->
+    <main>
+        <section class="suscripcion-form">
+            <h2>Formulario de suscripción</h2>
+            <form action="indice.html" method="post">
+                <!-- Selección del plan -->
+                <label for="plan">Elige tu plan de suscripción:</label>
+                <p id="infoSub"><a target="_blank" href="https://es.lipsum.com/feed/html">Más información sobre los planes<a></p>
+                <br>
+                <select id="plan" name="plan" class="seleccionCampo">
+                    <option value="basico">Plan Básico - €5/mes</option>
+                    <option value="intermedio">Plan Intermedio - €10/mes</option>
+                    <option value="premium">Plan Premium - €20/mes</option>
+                </select>
+                <br>
+                <br>
+
+                <!-- Opciones adicionales -->
+                <label for="extras">Selecciona opciones adicionales:</label>
+                <br>
+                <div class="opcionesSeleccion">
+                    <div>
+                        <input type="checkbox" name="extras" value="newsletter" class="margenBotones">
+                        <label for="newsletter">Suscripción al boletín</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="soporte" name="extras" value="soporte" class="margenBotones">
+                        <label for="soporte">Soporte 24/7</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="descuentos" name="extras" value="descuentos" class="margenBotones">
+                        <label for="descuentos">Descuentos exclusivos</label>
+                </div>
+                </div>
+                <br>
+                <br>
+
+                <!-- Información de pago -->
+                <label for="tarjeta">Número de tarjeta:</label>
+                <br>
+                <input type="text" id="tarjeta" name="tarjeta" class="tarjetaEscribir" required>
+                <br>
+                <br>
+                <label for="fechaExp">Fecha de expiración:</label>
+                <br>
+                <input type="month" id="fechaExp" name="fechaExp" class="campoFecha" required>
+                <br>
+                <br>
+
+                <button type="submit" class="botonEnviar">Suscribirse y pagar</button>
+                <input type="button" name="SalirSuscribirse" value="Salir" onclick="window.location.href='Inicio.html'">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer de la suscripción -->
+    <footer>
+        <p> © 2025 Servicios Premium. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

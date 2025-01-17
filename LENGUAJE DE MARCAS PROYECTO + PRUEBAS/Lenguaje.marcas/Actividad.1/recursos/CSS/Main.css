@@ -1,0 +1,587 @@
+* {
+    margin:0;
+}
+
+/*              Modo movil  =   width = 400px       height = 700px              */
+
+
+/* Esto es el principio del Body en CSS */
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100% ;
+
+}
+
+/* Este es el final del Body */
+
+/* Esto es el principio del Header en CSS */
+
+header{
+    background-color: #cc0000;
+    color: white;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.seccion-navegacion{
+    height: 100px;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    gap: 20px;
+    color: black;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+}
+
+.objetonavegado{
+    width: 32%;
+    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 19px;
+    background-color: #cc0000;
+}
+
+.objetonavegado:hover{
+    background-color: white;
+    color: black;
+}
+
+#izquierda{
+    border-left: solid 10px black;
+}
+
+#derecha{
+    border-right: solid 10px black;
+}
+
+.objetonavegado a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+
+
+.formHeader{
+    border: solid 10px black;
+}
+
+.titSuscripcion{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+.formularioSuscripcion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.salirSesion{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.cuadradoSalir{
+    display: flex;
+    flex-direction: eow;
+    align-items: flex-end;
+    gap: 10px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+
+.headerLogoYFormularios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+/* Esto es el final del Header en CSS */
+
+
+
+
+/* Esto es el principio del Main en CSS */
+main{
+    background-color: white;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* Esto es el final del Main*/
+
+
+
+/* Esto es el principio del Footer en CSS */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:#cc0000;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+#h3-footer{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.imagenesFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fotoredes{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-blanco{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* Esto es el final del Footer en CSS */
+
+
+
+/*          Página INFO TEO             */
+
+/*  Puntos en el header para que la imagen/icono este situado más abajo  */
+.puntRojo{
+    color: #cc0000;
+}
+
+/* Titulo principal de la página Info  */
+.tituloContenido{
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Contenido de la página "main" de página Info */
+.container {
+    display: flex;
+}
+
+/* Barra lateral Info (Teo) */
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 20%; 
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+/*  Titulo del aside página Info.  */
+#titAside{
+    font-size: 40px;
+    text-align: center;
+}
+
+/*  Foto de la barra lateral  */
+#fotAside{
+    width: 30%;
+}
+
+/*  Contenido paralelo a la barra lateral  */
+.cont{
+    background-color: white;
+    padding: 35px;
+    justify-content: space-around;
+}
+
+/*  Titulo dentro de .Cont  */
+.titSecContenido{
+    font-size: 40px;
+}
+
+.textoContenido{
+    width: 100%;
+    height: 33%;
+
+}
+
+#enlaceCentro{
+    font-size: 20px;        
+}
+
+#enlaceCentro:hover{
+    color: #cc0000;
+}
+
+.pContenido{
+    font-size: 20px;
+}
+
+
+
+/*              Final INFO TEO           */
+
+
+
+
+/*          Pagina articulos luca             */
+.articulos_luca{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center; 
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 60px;
+    
+        
+    }
+    
+a{
+    text-decoration: none;
+}
+
+
+
+
+.articulo_luca{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    padding: 20px;
+    background-color: #cc0000;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px ;
+    border-color: 3px solid black;
+    color: white;
+    width: auto; 
+    height: 70%;
+    
+}
+
+.titulo_articulos_luca{
+    font-size: 1,5em;
+
+
+}
+
+.texto_articulos_luca{
+    font-size: 1,25em;
+
+
+}
+
+.imagenes_articulo_luca{
+    border-radius: 15px; /* Bordes redondeados */
+    width: 100%; 
+    height: 80%;
+}
+    
+
+
+
+
+/*              Final articulos               */
+
+
+/* Inicio Main de Índice (Pedro Pérez) */
+
+.seccion-imagenes {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.div-main-indice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cc0000;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.cuadrado-negro {
+    flex: 1; /* Se adapta al tamaño del contenedor */
+    padding: 20px;
+    text-align: justify;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.foto-indice {
+    flex: 1; /* Para ocupar el mismo espacio que el texto */
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 20px;
+}
+
+.cuadrado-negro h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #cc0000;
+}
+
+/* Sección Destacada Main de Índice (Pedro Pérez) */
+.mainIndice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-destacada {
+    margin-top: 2%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #cc0000;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.seccion-destacada h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.seccion-destacada p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Fin Main de Índice (Pedro Pérez) */
+
+/* Inicio Main de Detalles (*) */
+
+
+
+
+
+
+
+/*              Inicio de modificaciones según pantalla               */
+
+
+
+@media (max-width: 400px) {
+    
+    /*          Principio media de Body            */
+
+    html, body {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /*          Final media de Body            */
+
+
+
+    /*          Principio media de Header            */
+    .header {
+        width: 100%;    
+        overflow-x: hidden;
+    }
+
+    .objetonavegado {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    /*          Final media de Header            */
+
+
+
+    /*          Principio media de Info            */
+    
+
+    .tituloContenido {              /*  Titulo principal del contenido página Info.   */
+        font-size: 30px;
+    }
+
+    .titSecContenido {              /*  Titulo secundario del contenido página Info.  */
+        font-size: 25px;
+    }
+
+    .pContenido{                    /*  Parrafos del contenido página Info.  */
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .cont{                          /*  Contenido principal página Info. */
+        padding: 10px;
+    }
+
+    #izquierda{                     /*  Barra negra del Header izquierda */
+        border-left: solid 0px black;
+    }
+    
+    #derecha{                       /*  Barra negra del Header derecha */
+        border-right: solid 0px black;
+    }
+
+    aside{                          /*  Aside (barra lateral) página Info.  */
+        width: 6rem;
+        display: none;
+    }
+
+    #titAside{                      /*  Titulo del aside (barra lateral) página Info.  */
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .pAside{                        /*  Parrafo del aside (barra lateral) página Info.  */
+        font-size: 1rem;
+    }
+
+    .enlaceCentro{
+        display: none;
+    }
+
+
+    /*          Final media de Info            */
+
+
+
+
+    /*          Final media de Info            */
+
+    
+
+
+
+    /* Articulos luca*/
+    .articulos_luca{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        align-items: center; 
+        gap: 20px;
+        background-color: #ffffff;
+        padding: 60px;
+        
+            
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        
+        
+        
+        
+        .articulo_luca {
+            display: flex; 
+            flex-direction: column; 
+            justify-content: flex-start; 
+            padding: 20px; 
+            background-color: #cc0000; 
+            box-shadow: 10px 10px 5px black; 
+            border: 3px solid black; 
+            border-radius: 10px; 
+            color: white; 
+            width: fit-content; /* Ajusta el ancho al contenido */
+            height: auto; 
+            margin: 0; 
+        }
+        
+        
+        
+        .titulo_articulos_luca{
+            font-size: 1,5em;
+        
+        
+        }
+        
+        .texto_articulos_luca{
+            font-size: 1,25em;
+        
+        
+        }
+        
+        .imagenes_articulo_luca{
+            width: 100%; 
+            height: 30%;
+        }  
+    
+
+    
+
+    /*      Prueba de imagenes pedro        */
+    
+    .foto-indice{
+        width: 150px;
+        height: 150px;
+    }
+
+
+}
+
+
+
+/*              Fin de modificaciones según pantalla               */
