@@ -1,0 +1,122 @@
+/* Estilos para el formulario de registro */
+
+body{
+    text-align: center;
+    background-color: #333;
+}
+
+h1{
+    font-size: 35pt;
+    color: #f4f4f4;
+}
+
+h2{
+    color: #f4f4f4;
+}
+
+#suscripcion{
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+/* Estilo general para los inputs y botones */
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"], button {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #cc0000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo específico para inputs de tipo texto y email */
+input[type="text"], input[type="email"], input[type="tel"] {
+    background-color: #fff;
+}
+
+/* Estilo para los inputs de contraseña */
+input[type="password"] {
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #cc0000;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto de hover para el botón */
+button:hover {
+    background-color: #a10000;
+}
+
+/* Estilo para el encabezado del formulario */
+.formHeader h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #cc0000;
+}
+
+/* Espaciado entre el título y los campos del formulario */
+.formHeader label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para los campos de texto en general */
+.formularioSuscripcion {
+    font-size: 16px;
+}
+
+/* Estilo */
+#enlaceSuscripcion{
+    color: #f4f4f4;
+}
+
+#textoSub{
+    color: #f4f4f4;
+}
+
+#enlaceSuscripcion:hover{
+    color: #a10000;
+}
+
+/* FIN DEL LOGIN */
+
+/* Ajustes para inputs en pantallas pequeñas */
+@media (max-width: 400px) {
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], input[type="password"], button {
+        font-size: 14px;
+    }
+
+    .formHeader h2 {
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Comentarios</title>
+
+</head>
+<body class="pagina-comentarios">
+
+    <style>
+        /* Estilos generales para la página */
+        .pagina-comentarios {
+            background-color: white; /* Fondo blanco */
+            color: red; /* Texto rojo */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .boton-rojo {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .boton-rojo:hover {
+            background-color: darkred;
+        }
+
+        .comentarios-seccion {
+            background-color: white;
+            color: black;
+            border: 2px solid red;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+            max-width: 500px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .oculto {
+            display: none;
+        }
+
+        .titulo-comentarios {
+            color: red;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .lista-comentarios {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .lista-comentarios li {
+            background-color: #ffdddd;
+            border-left: 4px solid red;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .formulario-comentarios {
+            margin-top: 20px;
+        }
+
+        .input-rojo, .textarea-rojo {
+            border: 2px solid red;
+            padding: 10px;
+            border-radius: 5px;
+            width: 80%;
+        }
+
+        .textarea-rojo {
+            height: 80px;
+            resize: none;
+        }
+    </style>
+
+
+
+    <!-- Botón para mostrar el formulario de comentarios -->
+    <button id="mostrarFormulario" class="boton-rojo">Mostrar Formulario de Comentarios</button>
+
+    <!-- Sección de comentarios (inicialmente oculta) -->
+    <section id="comentariosSeccion" class="comentarios-seccion oculto">
+        <h2 class="titulo-comentarios">Comentarios</h2>
+
+        <!-- Lista de comentarios -->
+        <ul id="listaComentarios" class="lista-comentarios"></ul>
+
+        <!-- Formulario para enviar un comentario -->
+        <form id="formComentario" class="formulario-comentarios">
+            <input type="text" id="nombre" class="input-rojo" placeholder="Tu Nombre" required>
+            <br><br>
+            <textarea id="comentario" class="textarea-rojo" placeholder="Escribe tu comentario" required></textarea>
+            <br><br>
+            <button type="submit" class="boton-rojo">Enviar Comentario</button>
+        </form>
+    </section>
+
+    <!-- Vinculación con el archivo JS -->
+    <script src="recursos/JS/main.js" async defer></script>
+</body>
+</html>
+
+
+
+

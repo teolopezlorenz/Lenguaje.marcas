@@ -1,0 +1,128 @@
+/* INICIO DE SUSCRIPCIÓN */
+
+/* Resetear márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+/* Estilo del header */
+header {
+    text-align: center;
+    background-color: #cc0000;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Estilo del formulario de suscripción */
+.suscripcion-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.suscripcion-form h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+}
+
+
+/* Estilo de los campos de formulario */
+label {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo de la información sobre los planes */
+#infoSub{
+    font-size: 8pt;
+}
+
+/* Estilo de las clases para rellenar información de tarjeta */
+.seleccionCampo, 
+.tarjetaEscribir, 
+.campoFecha, 
+.botonEnviar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.margenBotones {
+    margin-right: 10px;
+}
+
+/* Alinear checkboxes al lado */
+.opcionesSeleccion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+.opcionesSeleccion div {
+    display: flex;
+}
+
+/* Estilo para el botón de suscripción */
+button {
+    background-color: #cc0000;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a10000;
+}
+
+/* Estilo para el footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+
+
+/* Ajustes para inputs en pantallas pequeñas */
+@media (max-width: 400px) {
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], input[type="password"], button {
+        font-size: 14px;
+    }
+
+    .formHeader h2 {
+        font-size: 20px;
+    }
+}
+
