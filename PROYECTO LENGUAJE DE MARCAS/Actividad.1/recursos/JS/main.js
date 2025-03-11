@@ -65,9 +65,7 @@ function modoClaro() {
     if (main) {
         main.classList.add('containerClaro');
         main.classList.remove('containerOscuro');
-    } else {
-        console.error('No se encontró .main_luca ni main en la página.');
-    }
+    } 
     document.getElementById('modoOscuro').disabled = false;
     document.getElementById('modoClaro').disabled = true;
 }
